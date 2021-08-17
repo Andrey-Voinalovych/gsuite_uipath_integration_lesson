@@ -1,7 +1,7 @@
 function createForm() {
 
   //Get SpreadSheet By ID
-  var ss = SpreadsheetApp.openById("15eB8PA-k9OK0ELHMwBm-6HiOj6hxZLDd6-OcsvUyqjI");
+  var ss = SpreadsheetApp.openById("SHEET ID"); //TODO ADD YOUR SHEET ID
   //Get Sheet By Number
   var sheet = ss.getSheets()[0];
   
@@ -37,7 +37,7 @@ function createForm() {
       form.addTextItem().setTitle(name).setRequired(true);
 
       //Direct answers to another spreadsheet
-      form.setDestination(FormApp.DestinationType.SPREADSHEET, "1WuyHSVpy2vS28BcqMRyQkvYf2qaOdZL-axAi-3WO7vI");
+      form.setDestination(FormApp.DestinationType.SPREADSHEET, "SHEET_ID"); //TODO ADD YOUR SHEET ID
       
       sheet.getRange("F"+iterable).setValue("Processed")
     }
