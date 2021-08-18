@@ -13,6 +13,7 @@ https://script.google.com/home/usersettings
 ## Полезные ссылки
 1. Пишем код Google Scripts тут: https://script.google.com/home/start
 2. Документация по Google Scripts: https://developers.google.com/apps-script/overview
+3. Урок от Google по Scripts & Forms: https://www.youtube.com/watch?v=L33hMxuoFtM
 
 
 
