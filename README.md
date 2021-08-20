@@ -12,6 +12,7 @@ __2. Активация доступа "менее защищенным прил
 
 __3. Разрешить запуск скриптов в Google Scripts__
 https://script.google.com/home/usersettings
+
 __4. Настройка GCP__
 ![image](https://user-images.githubusercontent.com/83003458/130199224-1f1ec279-9d43-45e8-856f-db1791945858.png)
 
